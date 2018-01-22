@@ -70,7 +70,7 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import axios from '../../custom-axios'
 
   export default {
     data () {
