@@ -105,7 +105,6 @@
           hobbies: this.hobbyInputs.map(hobby => hobby.value),
           terms: this.terms
         }
-        console.log(formData)
 
         axios.post('https://vueaxios-3ae26.firebaseio.com/users.json', formData)
           .then(res => console.log(res))
