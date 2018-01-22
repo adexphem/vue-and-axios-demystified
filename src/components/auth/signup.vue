@@ -106,7 +106,7 @@
           terms: this.terms
         }
 
-        axios.post('https://vueaxios-3ae26.firebaseio.com/users.json', formData)
+        axios.post('/users.json', formData)
           .then(res => console.log(res))
           .catch(error => console.log(error))
       }
